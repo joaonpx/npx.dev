@@ -1,0 +1,78 @@
+@keyframes down {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes up {
+    from {
+        transform: translateY(250%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes right {
+    from {
+        opacity: 0;
+        transform: translateX(-500%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animate-down {
+    animation-name: down;
+    animation-duration: 1000ms;
+}
+
+.animate-up {
+    animation-name: up;
+    animation-duration: 1000ms;
+}
+
+.animate-appear {
+    animation-name: appear;
+    animation-duration: 500ms;
+    animation-fill-mode: backwards;
+}
+
+.animate-right {
+    animation-name: right;
+    animation-duration: 1000ms;
+}
+
+.animate-right2 {
+    animation-name: right;
+    animation-duration: 1500ms;
+}
+
+.animate-right3 {
+    animation-name: right;
+    animation-duration: 2000ms;
+}
+
+.animate-right4 {
+    animation-name: right;
+    animation-duration: 2500ms;
+}
+
+.animate-right5 {
+    animation-name: right;
+    animation-duration: 3000ms;
+}
